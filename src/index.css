@@ -1,0 +1,87 @@
+*{margin:0; padding:0; box-sizing: border-box}
+
+body{
+    background-color: rgb(241, 245, 245);
+}
+img{
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.person-img{
+    width: 180px;
+    height: 180px;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+h2{
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.underline{
+  width: 5rem;
+  height: 4px;
+  background-color: rgb(113, 121, 207);
+  margin-bottom: 3rem;
+  margin: auto
+}
+.container{
+  text-align: center;
+}
+
+.image-container{
+  position: relative;
+  width: 20%;
+  margin: auto;
+}
+
+.quote-icon{
+  position: absolute; 
+  top: 3rem; 
+  left: 2px;  
+  font-size: 1rem;
+  color: white;
+  background-color: rgb(113, 121, 207);
+  border-radius: 50%;
+  padding: 0.6rem
+}
+
+article{
+  background-color: white;
+  width: 55%;
+  margin: auto;
+  margin-top: 2rem;
+  box-shadow: 0.3px 0.4px 12px rgb(194, 187, 187);
+}
+
+.author{
+  text-transform: capitalize;
+}
+.job{
+  text-transform: uppercase;
+  color:rgb(20, 28, 119);
+  margin: 0.3rem 0 0.8rem;
+}
+.info{
+  padding: 0 6rem;
+  margin-bottom: 0.7rem;
+}
+button{
+  padding: 4px;
+  background-color: aliceblue;
+  color:rgb(113, 121, 207);
+  border: none;
+  font-size: 1.6rem;;
+}
+.random-btn{
+  display: inline-block;
+  padding:4px 13px;
+  background-color: rgb(196, 198, 227);
+  color:rgb(20, 28, 119);
+  margin-bottom: 1rem;
+}
+
